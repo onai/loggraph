@@ -53,3 +53,4 @@ python3 logexample.py
 cd random-log
 python3 log-graph.py <random_log_filename>
 ```
+The graphs will be stored in json files numbered from 0-n e.g. 0.json, 10.json
