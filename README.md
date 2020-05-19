@@ -40,16 +40,16 @@ In testing, this succeeded in perfectly handling all log files described above, 
 `docker run -it --entrypoint="/bin/bash" logtogiraph`
 
 ### Generating Giraph graph from HDF5 logs
-`python hdfs-graph.py <hdf5_log_file>`
+`python3 hdfs-graph.py <hdf5_log_file>`
 
 ### Generating a random log file
 ```
 cd random-log
-python logexample.py
+python3 logexample.py
 ```
 
 ### Generating Giraph graphs from log files
 ```
 cd random-log
-python log-graph.py <random_log_filename>
+python3 log-graph.py <random_log_filename>
 ```
