@@ -36,4 +36,4 @@ for edge in edges:
         indx = srcIndices[srcEdge]
         giraph[indx][1].append([destEdge, 1])
 
-print(giraph[100])
+print(giraph)
