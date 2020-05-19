@@ -1,0 +1,11 @@
+## logexample.py
+
+Creates a random log file called `test.log`
+
+`python3 logexample.py`
+
+## compare-rows.py
+
+Generates giraph graphs if it recognizes columns as nodes in a graph
+
+`python3 log-graph.py`
