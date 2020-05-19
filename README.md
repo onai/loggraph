@@ -34,7 +34,7 @@ In testing, this succeeded in perfectly handling all log files described above, 
 ## How to run
 
 ### Build docker container
-`docker built -t logtogiraph`
+`docker built -t logtogiraph .`
 
 ### Enter into the docker container
 `docker run -it --entrypoint="/bin/bash" logtogiraph`
